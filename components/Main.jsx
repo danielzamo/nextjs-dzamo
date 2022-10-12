@@ -15,9 +15,8 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             Hola, soy <span className='text-[#5651e5]'> Daniel</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>Sitio de contenido HTML estático</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            Web reponsive.
+            Contenido HTML estático, Web reponsive.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
