@@ -125,7 +125,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build something legendary together
+                Para aprender enseña!
               </p>
             </div>
           </div>
@@ -133,12 +133,7 @@ const Navbar = () => {
             <ul className='uppercase'>
               <Link href='/'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Home
-                </li>
-              </Link>
-              <Link href='/#about'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  About
+                  Inicio
                 </li>
               </Link>
               <Link href='/#skills'>
@@ -151,20 +146,10 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Resume
-                </li>
-              </Link>
-              <Link href='/#contact'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Contact
-                </li>
-              </Link>
             </ul>
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#5651e5]'>
-                Let&#39;s Connect
+                El algunas redes
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
