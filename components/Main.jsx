@@ -18,9 +18,15 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             Hola, soy <span className='text-[#297CFC]'> Daniel</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>LPI 2</h1>
+          <Link href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000408515/l25avv283p">
+            <a>
+              <h3 className='py-2 text-gray-700'>
+                LPIC-1 & LPIC-2
+              </h3>
+            </a>
+          </Link>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          Estoy enfocado en el despliegue y/o administración de sistemas Linux. Principalmente en distribuciones basadas en RHEL y/o Debian, y sus derivados.
+            Estoy enfocado en el despliegue y/o administración de sistemas Linux. Principalmente en distribuciones basadas en RHEL y/o Debian, y sus derivados.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
@@ -50,7 +56,7 @@ const Main = () => {
                 <FaGitlab />
               </div>
             </a>
-{/*            <Link href='/#contact'>
+            {/*            <Link href='/#contact'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
