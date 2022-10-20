@@ -6,6 +6,10 @@ import Css from '../public/assets/skills/css.png';
 
 import { mySkills } from '../profile';
 
+//const mySkills = [
+//    {alt: 'Sitio web de Bash', img:'/../public/assets/skills/bash.png',name:'Bash', href:'https://www.gnu.org/software/bash/', target:'_blank', rel:'noreferrer'},
+//];
+
 const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
@@ -16,12 +20,29 @@ const Skills = () => {
         <h2 className='py-4'>En que puedo trabajar</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           {/* Skills Paint  */}
-          {mySkills.map(({ name, m_img, rel, href, target, alt }, i) => (
+          {mySkills.map(({ name, img, rel, href, target, alt }, i) => (
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' key={i}>
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                  <Image src={m_img} width='64px' height='64px' alt={alt} />
-                </div>
+                  <Image src={img} width='64px' height='64px' alt={alt} />
+              {/* ---
+import Image from 'next/image'
+              const Example = () => (
+                    <div className="grid-element">
+                      <Image
+                        src="/example.png"
+                        layout="fill"
+                        sizes="(max-width: 768px) 100vw,
+                                (max-width: 1200px) 50vw,
+                                33vw"
+                      />
+                    </div>
+              )
+              ---
+              */}
+
+
+              </div>
                 <div className='flex flex-col items-center justify-center'>
                   <h3>{name}</h3>
                   
