@@ -17,7 +17,7 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Daniel Oscar Zamo</h2>
           <div className='flex'>
             <a
               href='https://www.linkedin.com/in/clint-briley-50056920a/'
@@ -27,7 +27,7 @@ const resume = () => {
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/dzamo'
               target='_blank'
               rel='noreferrer'
             >
