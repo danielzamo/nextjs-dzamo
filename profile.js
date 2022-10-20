@@ -1,7 +1,7 @@
 export const mySkills = [
 {alt: 'Sitio web de Bash', img:'../public/assets/skills/bash.png',name:'Bash', href:'https://www.gnu.org/software/bash/', target:'_blank', rel:'noreferrer'},
 {alt: 'Sitio web de CSS', img:'public/assets/skills/css.png',name:'CSS', href:'https://www.w3.org/Style/CSS/Overview.en.html', target:'_blank', rel:'noreferrer'},
-{alt: 'Sitio web de Debian', img:'/../public/assets/skills/debian.png',name:'Debian', href:'https://www.debian.org/', target:'_blank', rel:'noreferrer'},
+{alt: 'Sitio web de Debian', img:'./public/assets/skills/debian.png',name:'Debian', href:'https://www.debian.org/', target:'_blank', rel:'noreferrer'},
 {alt: 'Sitio web de Github', img:'/../public/assets/skills/github1.png',name:'Gihub', href:'https://www.github.com', target:'_blank', rel:'noreferrer'},
 {alt: 'Sitio web de Gitlab', img:'/../public/assets/skills/gitlab1.png',name:'Gitlab', href:'https://www.github.com', target:'_blank', rel:'noreferrer'},
 {alt: 'Sitio web de HTML', img:'/../public/assets/skills/html.png',name:'HTML', href:'https://html.com/', target:'_blank', rel:'noreferrer'},
