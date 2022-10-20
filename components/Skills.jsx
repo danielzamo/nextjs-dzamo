@@ -2,6 +2,8 @@ import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 
+import Css from '../public/assets/skills/css.png';
+
 import { mySkills } from '../profile';
 
 const Skills = () => {
@@ -14,11 +16,11 @@ const Skills = () => {
         <h2 className='py-4'>En que puedo trabajar</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           {/* Skills Paint  */}
-          {mySkills.map(({ name, img, rel, href, target, alt }, i) => (
+          {mySkills.map(({ name, m_img, rel, href, target, alt }, i) => (
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' key={i}>
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                  <img src={img} width='64px' height='64px' alt={alt} />
+                  <Image src={m_img} width='64px' height='64px' alt={alt} />
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                   <h3>{name}</h3>
