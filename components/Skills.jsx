@@ -1,14 +1,16 @@
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
-
+/*
 import Css from '../public/assets/skills/css.png';
 
-import { mySkills } from '../profile';
+const mySkills = [
+  {alt: 'Sitio web de Bash', img:'/../public/assets/skills/bash.png',name:'Bash', href:'https://www.gnu.org/software/bash/', target:'_blank', rel:'noreferrer'},
+  {alt: 'Sitio web de CSS', img:'../public/assets/skills/css.png',name:'CSS', href:'https://www.w3.org/Style/CSS/Overview.en.html', target:'_blank', rel:'noreferrer'},
+  ];
+*/
 
-//const mySkills = [
-//    {alt: 'Sitio web de Bash', img:'/../public/assets/skills/bash.png',name:'Bash', href:'https://www.gnu.org/software/bash/', target:'_blank', rel:'noreferrer'},
-//];
+import { mySkills } from "../profile.js";
 
 const Skills = () => {
   return (
@@ -24,7 +26,8 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' key={i}>
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                  <Image src={img} width='64px' height='64px' alt={alt} />
+                <img src={`/${img}`} alt="caso de uso 1" className="" />
+
               {/* ---
 import Image from 'next/image'
               const Example = () => (

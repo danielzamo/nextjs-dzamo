@@ -1,6 +1,6 @@
 export const mySkills = [
-{alt: 'Sitio web de Bash', img:'/../public/assets/skills/bash.png',name:'Bash', href:'https://www.gnu.org/software/bash/', target:'_blank', rel:'noreferrer'},
-{alt: 'Sitio web de CSS', img:'/../public/assets/skills/css.png',name:'CSS', href:'https://www.w3.org/Style/CSS/Overview.en.html', target:'_blank', rel:'noreferrer'},
+{alt: 'Sitio web de Bash', img:'skills/bash.png',name:'Bash', href:'https://www.gnu.org/software/bash/', target:'_blank', rel:'noreferrer'},
+{alt: 'Sitio web de CSS', img:'skills/css.png',name:'CSS', href:'https://www.w3.org/Style/CSS/Overview.en.html', target:'_blank', rel:'noreferrer'},
 ];
 /*
     {alt: 'Sitio web de Debian', img:'./public/assets/skills/debian.png',name:'Debian', href:'https://www.debian.org/', target:'_blank', rel:'noreferrer'},
