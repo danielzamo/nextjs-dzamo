@@ -99,12 +99,12 @@ export const mySkills = [
 
 export const myProjects = [
   {
-    title: "Docker para aplicaciones LAMP",
+    title: "Este sitio - contenido web estático",
     // skills/bash.png
     backgroundImg: "projects/srv-lamp.jpg",
-    projectUrl: "serv-lamp",
-    tech: "Docker - LAMP",
-    alt: "Serv. Docker app LAMP",
+    projectUrl: "static-portfolio-01",
+    tech: "React - Next",
+    alt: "Portfolio estático",
   },
   {
     title: "Srv Kubernetes Minikube",
