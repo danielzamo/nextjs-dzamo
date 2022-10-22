@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import lampService from '../public/assets/projects/lamp-service.jpg';
+import lampService from '../public/projects/lamp-service.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
