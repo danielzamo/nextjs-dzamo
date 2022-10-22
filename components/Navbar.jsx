@@ -72,18 +72,20 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/'>Inicio</Link>
             </li>
+
+            <li className='ml-10 text-sm uppercase hover:border-b'>
+              <Link href='/#skills'>Skills</Link>
+            </li>
+            
+
+            <li className='ml-10 text-sm uppercase hover:border-b'>
+              <Link href='/#projects'>Projects</Link>
+            </li>
             {/*
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#about'>About</Link>
             </li>
-    */}
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#skills'>Skills</Link>
-            </li>
-            {/*
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#projects'>Projects</Link>
-            </li>
+    
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/resume'>Resume</Link>
             </li>
@@ -150,24 +152,25 @@ const Navbar = () => {
                   Inicio
                 </li>
               </Link>
-              {/*
-              <Link href='/#about'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  About
-                </li>
-              </Link>
-        */}
+
               <Link href='/#skills'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Skills
                 </li>
               </Link>
-              {/*
+
               <Link href='/#projects'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Projects
                 </li>
               </Link>
+              {/*
+                            <Link href='/#about'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                  About
+                </li>
+              </Link>
+
               <Link href='/resume'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
