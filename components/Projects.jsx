@@ -10,7 +10,7 @@ const Projects = () => {
         <p className='text-xl tracking-widest uppercase text-[#297CFC]'>
           Projects
         </p>
-        <h2 className='py-4'>Desarrolado/desplegado</h2>
+        <h2 className='py-4'>Diseñado/desarrollado, implantado y/o desplegado</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           {
             myProjects.map(({ title, backgroundImg, projectUrl, tech, alt }, index) => (
